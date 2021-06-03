@@ -1,0 +1,17 @@
+설정 명령어 -------------------------
+
+git conifg --global user.email ''
+git config --global user.name ''
+git config --global -l  ## 조회
+
+---------------------------------------
+touch a.txt < 파일 만들기
+---------------------------------------
+git init
+git add .
+git commit -m 'First commit'
+git status
+git log
+
+git remote add origin __github url__
+git push origin master
